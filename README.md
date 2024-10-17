@@ -1,1 +1,2 @@
-# paws-and-tails
+# Paws and Tails
+
