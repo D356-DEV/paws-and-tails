@@ -1,1 +1,2 @@
-This folder is used for the pages.
+This folder will be used to store the pages that make up the web system. 
+Each page must be saved in a folder that describes its name and will contain an index file.

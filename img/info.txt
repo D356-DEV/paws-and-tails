@@ -1,1 +1,3 @@
-This folder is used images.
+This folder is used to store images that are needed in the system.
+It is important to organize the type of images, such as: backgrounds, photographs, icons, etc.
+Use abbreviations, for example. For backgrounds, in the backgrounds folder, images can be named: BG001.jpg.

@@ -1,1 +1,1 @@
-This folder is used for PHP backend.
+This folder is used for the PHP backend.
