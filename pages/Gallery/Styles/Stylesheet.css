@@ -1,0 +1,124 @@
+.body{
+    background-color: #F6EFBD;
+}
+
+/* Estilos personalizados para las tarjetas */
+.card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%; /* Para asegurar que la imagen no se desborde */
+    background-color: #E4C087;
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 220px;
+    height: 248px;
+    transition: transform 0.3s ease;
+}
+
+.galeria{
+    padding: 80px 0;
+}
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+ /*Centrando las tarjetas dentro de las columnas */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustes para el texto del footer */
+footer p {
+    margin: 0;
+}
+
+.btn{
+    background-color: #F6EFBD;
+    color: black;
+    border-color: black;
+    box-shadow: 0 2px #666;
+}
+
+.contact{
+    background-color: #E4C087;
+    margin-bottom: 0;
+}
+
+.fut{
+    background-color: #BC7C7C
+    
+}
+
+.no-margin {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#contacto {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+
+    .carousel-item{
+        min-height: 500px;
+    }
+
+    .carousel-item img{
+        height: 500px;
+    }
+
+    .carousel-caption{
+        bottom: 30px;
+    }
+
+    .carousel-caption h5{
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .services{
+        padding: 30px 0;
+    }
+
+    .product{
+        padding: 30px 0 0 0;
+    }
+
+    .banner{
+        margin-bottom: 30px;
+    }
+}
+
+.btn:active {
+    transform: translateY(4px); /* Efecto de hundimiento */
+    background-color: #F6EFBD;
+}
+
+.btn:hover {
+    background-color: #F6EFBD; /* Mantiene el color de fondo original */
+    color: black; /* Mantiene el color del texto original */
+    border-color: black; /* Mantiene el borde original */
+}
+
+.btn:active, .btn:focus {
+    background-color: #F6EFBD !important; /* Asegura que el fondo no cambie */
+    color: black !important; /* Asegura que el texto no cambie */
+    border-color: black !important; /* Asegura que el borde no cambie */
+    box-shadow: none !important; /* Elimina la sombra por defecto */
+}
