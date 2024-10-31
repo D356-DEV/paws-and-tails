@@ -1,0 +1,24 @@
+
+        html, body {
+            height: 100%; /* Asegura que todo el cuerpo cubra el 100% de la pantalla */
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh; /* Mantén el mínimo alto de 100vh */
+            background-color: #F6EFBD;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #BC7C7C;
+            color: white;
+        }
